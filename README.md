@@ -1,4 +1,4 @@
-# Go programming language book practice
+# Go programming language in action
 
 
 ## Go get started
@@ -10,4 +10,19 @@
 
 ```
     import hello.com/ch1/echo
+```
+
+## build and run 
+``` 
+ go mod tidy
+ 
+ go build hello.com/ch2/cf 
+ or
+ go build ./ch2/cf
+ 
+ ./cf 32
+```
+or
+``` 
+go run hello.com/ch2/cf 32
 ```
