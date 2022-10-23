@@ -9,7 +9,7 @@
 例如 go mod init hello.com，想引用 ch1/echo 包
 
 ```
-    import hello.com/ch1/echo
+   import hello.com/ch1/echo
 ```
 
 ## build and run 
